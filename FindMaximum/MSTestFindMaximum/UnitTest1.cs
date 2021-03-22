@@ -35,5 +35,15 @@ namespace MSTestFindMaximum
             //Assert
             Assert.AreEqual(expectedResult, result);
         }
+
+        [TestMethod]
+        //Act
+        public void Given_MaxFloatNumberAt1stPosition_WhenChecked_ThenReturn_SameNumber()
+        {
+            double expectedResult = 111.44;
+            double result = MaximumNumberCheck.MaximumFloatNumber(111.44, 44.20, 33.65);
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
     }
 }
