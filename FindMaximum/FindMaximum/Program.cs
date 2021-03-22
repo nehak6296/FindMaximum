@@ -8,7 +8,7 @@ namespace FindMaximum
         {
             Console.WriteLine("Welcome to Find Maximum Problem using Generics");
             
-            int output = MaximumNumberCheck.MaximumIntegerNumber(11,32,44);
+            int output = MaximumNumberCheck.MaximumIntegerNumber(11,44,33);
             Console.WriteLine(output);
         }
     }
