@@ -44,9 +44,9 @@ namespace FindMaximum
 
         public static string MaximumStringNumber(string firstString, string secondString, string thirdString)
         {
-            if (firstString.CompareTo(secondString) > 0 && firstString.CompareTo(secondString) > 0 ||
-                firstString.CompareTo(secondString) >= 0 && firstString.CompareTo(secondString) > 0 ||
-                firstString.CompareTo(secondString) > 0 && firstString.CompareTo(secondString) >= 0 )
+            if (firstString.CompareTo(secondString) > 0 && firstString.CompareTo(thirdString) > 0 ||
+                firstString.CompareTo(secondString) >= 0 && firstString.CompareTo(thirdString) > 0 ||
+                firstString.CompareTo(secondString) > 0 && firstString.CompareTo(thirdString) >= 0 )
             {
                 return firstString;
             }
