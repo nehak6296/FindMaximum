@@ -55,8 +55,6 @@ namespace MSTestFindMaximum
             //Assert
             Assert.AreEqual(expectedResult, result);
         }
-
-
         [TestMethod]
         //Act
         public void Given_MaxFloatNumberAt3rdPosition_WhenChecked_ThenReturn_SameNumber()
@@ -66,5 +64,16 @@ namespace MSTestFindMaximum
             //Assert
             Assert.AreEqual(expectedResult, result);
         }
+
+        [TestMethod]
+        //Act
+        public void Given_MaxStringNumberAt1stPosition_WhenChecked_ThenReturn_SameNumber()
+        {
+            string expectedResult = "44" ;
+            string result = MaximumNumberCheck.MaximumStringNumber("44", "33", "22");
+            //Assert
+            Assert.AreEqual(expectedResult, result);
+        }
+
     }
 }
