@@ -14,7 +14,7 @@ namespace FindMaximum
             double doubleOutput = MaximumNumberCheck.MaximumFloatNumber(111.44, 44.20, 33.65);
             Console.WriteLine(doubleOutput);
 
-            string stringOutput = MaximumNumberCheck.MaximumStringNumber("22","33","44");
+            string stringOutput = MaximumNumberCheck.MaximumStringNumber("Apple","Carrot","Banana");
             Console.WriteLine(stringOutput);
         }
     }
