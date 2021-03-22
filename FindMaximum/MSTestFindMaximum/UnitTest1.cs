@@ -69,7 +69,7 @@ namespace MSTestFindMaximum
         //Act
         public void Given_MaxStringNumberAt1stPosition_WhenChecked_ThenReturn_SameNumber()
         {
-            string expectedResult = "44" ;
+            string expectedResult = "Carrot" ;
             string result = MaximumNumberCheck.MaximumStringNumber("44", "33", "22");
             //Assert
             Assert.AreEqual(expectedResult, result);
